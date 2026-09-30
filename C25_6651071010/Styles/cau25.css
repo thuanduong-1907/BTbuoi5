@@ -1,0 +1,11 @@
+body { font-family: "Times New Roman", serif; margin: 30px; font-size: 16px; }
+.thucdon { background: #ccff00; border: 2px solid #99cc00; width: 400px; }
+.tieude { font-size: 22px; padding: 14px; }
+.thucdon th { color: #0000ff; font-size: 18px; }
+select[multiple] { width: 150px; font-size: 14px; }
+.thoidiem { font-size: 18px; }
+.giua { text-align: center; }
+.hoadon { border: 2px solid #660000; background: #99ffff; border-collapse: collapse; width: 100%; }
+.hoadon th, .hoadon td { border: 1px solid #660000; padding: 1px 4px; }
+.hoadon th { color: #0000ff; }
+.loi { color: red; font-weight: bold; }

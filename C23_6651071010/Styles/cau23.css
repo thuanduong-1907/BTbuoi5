@@ -1,0 +1,8 @@
+body { font-family: "Times New Roman", serif; margin: 30px; font-size: 18px; }
+.bang { background: #ffcc99; border: 3px solid #000099; }
+.bang td { background: #ffcc99; border: 1px solid #000099; padding: 2px 4px; }
+.nhan { font-weight: bold; }
+.giua { text-align: center; }
+#luong { width: 260px; font-size: 16px; }
+#luongthang { font-weight: bold; min-width: 260px; }
+#luongthang.loi { color: red; font-weight: normal; }

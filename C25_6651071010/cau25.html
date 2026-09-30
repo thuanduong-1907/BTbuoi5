@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Câu 25</title>
+<link rel="stylesheet" href="Styles/cau25.css">
+</head>
+<body>
+<table class="thucdon" cellspacing="2" cellpadding="3">
+    <tr><th colspan="3" class="tieude">THỰC ĐƠN</th></tr>
+    <tr><th>Thức ăn</th><th>Nước uống</th><th>Thời điểm</th></tr>
+    <tr>
+        <td><select id="thucan" multiple size="7"></select></td>
+        <td><select id="nuocuong" multiple size="7"></select></td>
+        <td class="thoidiem">
+            <label><input type="radio" name="thoidiem" value="ngay" checked> Ban ngày</label><br><br>
+            <label><input type="radio" name="thoidiem" value="dem"> Ban đêm</label>
+        </td>
+    </tr>
+    <tr><td colspan="3" class="giua"><input type="button" id="btnTinhTien" value="Tính tiền"></td></tr>
+    <tr><td colspan="3" id="hoadon"></td></tr>
+</table>
+<script src="Scripts/cau25.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+body { font-family: "Times New Roman", serif; margin: 30px; font-size: 18px; }
+.khung { display: inline-block; border: 1px solid #999; padding: 8px 12px; }
+input[type=text] { width: 200px; font-size: 16px; }
+button { font-size: 16px; margin-right: 6px; }
+#ketqua.loi { color: red; }

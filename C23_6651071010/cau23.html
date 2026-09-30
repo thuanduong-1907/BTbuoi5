@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Câu 23</title>
+<link rel="stylesheet" href="Styles/cau23.css">
+</head>
+<body>
+<form id="frmLuong" onsubmit="return false">
+<table class="bang" cellspacing="2" cellpadding="2">
+    <tr><td class="nhan">Lương</td><td><input type="text" id="luong" value="1000000"></td></tr>
+    <tr><td class="nhan">Hệ số lương</td>
+        <td><select id="heso">
+            <option value="1.86">1.86</option>
+            <option value="2.06">2.06</option>
+            <option value="2.26">2.26</option>
+            <option value="2.46">2.46</option>
+            <option value="2.66">2.66</option>
+            <option value="3">3.0</option>
+            <option value="3.2" selected>3.2</option>
+            <option value="3.5">3.5</option>
+            <option value="4">4.0</option>
+        </select></td></tr>
+    <tr><td colspan="2" class="giua"><input type="button" id="btnTinh" value="Tính lương tháng"></td></tr>
+    <tr><td class="nhan">Lương tháng</td><td id="luongthang"></td></tr>
+</table>
+</form>
+<script src="Scripts/cau23.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body { font-family: "Times New Roman", serif; margin: 30px; font-size: 18px; }
+.khung { display: inline-block; border: 1px solid #66cccc; }
+.tieude { background: #ffffcc; font-weight: bold; font-size: 22px; text-align: center; padding: 4px 10px; }
+.noidung { background: #ccffff; width: 100%; }
+input[type=text] { font-size: 16px; width: 170px; }
+#loi { background: #ccffff; color: red; padding: 0 8px 6px; min-height: 20px; }
+input.sai { border: 2px solid red; }

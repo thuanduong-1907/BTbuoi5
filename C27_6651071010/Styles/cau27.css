@@ -1,0 +1,4 @@
+body { font-family: "Times New Roman", serif; margin: 30px; font-size: 18px; }
+.bang { background: #ccffcc; border: 1px solid #99cc99; }
+.bang th { font-size: 20px; padding: 4px 20px; }
+.bang input[type=text] { width: 190px; font-size: 16px; }
